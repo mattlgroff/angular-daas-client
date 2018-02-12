@@ -1,22 +1,5 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div>
-  <mat-card>
-    <mat-card-title>Angular Client for Dice-As-A-Service</mat-card-title>
-    <label for="num_of_dice">Number of Dice</label>
-    <input id="num_of_dice" type="number" name="num_of_dice" min=1 placeholder=1 mat-form-field />
-
-    <label for="size_of_dice">Size of Dice</label>
-    <input id="size_of_dice" type="number" name="num_of_dice" min=1 placeholder=20 mat-form-field />
-
-    <mat-card-actions>
-      <button mat-button>Roll 1d20</button>
-    </mat-card-actions>
-  </mat-card>
-</div>
-
-<div>
-  <mat-card>
-    <mat-card-title>Dice Are Rolled Here:</mat-card-title>
-    <mat-card-content>dice dice dice dice</mat-card-content>
-  </mat-card>
+<div class="container">
+  <app-navbar></app-navbar>
+  <app-dice></app-dice>
+  <app-roll-area></app-roll-area>
 </div>
